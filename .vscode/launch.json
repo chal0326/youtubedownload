@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "https://www.youtube.com/watch?v=jkW4MsXif0U",
+            "request": "launch",
+            "url": "https://www.youtube.com/watch?v=jkW4MsXif0U"
+        }
+    ]
+}
