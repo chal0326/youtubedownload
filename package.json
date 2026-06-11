@@ -17,7 +17,7 @@
     "youtubei.js": "^17.0.1"
   },
   "devDependencies": {
-    "esbuild": "^0.21.5",
+    "esbuild": "^0.25.0",
     "pkg": "^5.8.1"
   },
   "bin": "dist/downloader.js"
