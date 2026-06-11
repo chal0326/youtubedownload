@@ -9,10 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fs": "^0.0.1-security",
-    "ytdl-core": "^4.11.5",
+    "ffmpeg-static": "^4.4.0",
     "fluent-ffmpeg": "^2.1.2",
-    "ffmpeg-static": "^4.4.0"
+    "fs": "^0.0.1-security",
+    "youtubei.js": "^17.0.1"
   },
   "bin": "downloader.js"
 }
