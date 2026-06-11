@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bundle": "esbuild downloader.js --bundle --platform=node --target=node18 --external:fluent-ffmpeg --external:ffmpeg-static --outfile=dist/downloader.js",
+    "build": "npm run bundle && pkg -t node18-macos,node18-win .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,5 +16,9 @@
     "fs": "^0.0.1-security",
     "youtubei.js": "^17.0.1"
   },
-  "bin": "downloader.js"
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "pkg": "^5.8.1"
+  },
+  "bin": "dist/downloader.js"
 }
